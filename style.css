@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg, #d161ff, #8052ec);
+    height: 75vh;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    width: 40%;
+    min-width: 450px;
+    height: 50%;
+    position: relative;
+    transform: translate(-50%, -50%);
+    margin-top: 20rem;
+    left: 50%;
+    padding: 80px;
+}
+
+.newtask {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 30px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    position: sticky;
+}
+
+.newtask input {
+    width: 70%;
+    height: 1.2rem;
+    /* font-family: 'poppins', sans-serif; */
+    font-size: 1rem;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111;
+    font-weight: 600;
+    position: relative;
+}
+
+.newtask input:focus {
+    outline: none;
+    border-color: #8052ec;
+}
+
+.newtask button {
+    width: 20%;
+    height: 3rem;
+    background: #713af1;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 550;
+}
+
+.newtask button:hover {
+    background-color: #5920db;
+}
+
+.tasks {
+    background-color: #fff;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rga(0, 0, 0, 0.3);
+    width: 93.2%;
+    position: relative;
+}
+
+.task {
+    background-color: #fff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #d1d3d4;
+    cursor: pointer;
+}
+
+.task span {
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.task button {
+    background-color: #8052ec;
+    color: #fff;
+    height: 100%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.completed {
+    text-decoration: line-through;
+}
